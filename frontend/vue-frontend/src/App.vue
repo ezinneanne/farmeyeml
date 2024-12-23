@@ -3,6 +3,42 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
+
+
+<template>
+  <div>
+    <Header />
+    <FeaturedMovies />
+    <RecommendMovies />
+    <ExclusiveVideos />
+    <FeaturedCasts />
+    <Footer />
+    <!-- Other content of your app goes here -->
+  </div>
+</template>
+
+<script>
+import Header from '../components/Header.vue';
+import FeaturedMovies from '../components/FeaturedMovies.vue';
+import RecommendMovies from '../components/RecommendMovies.vue';
+import ExclusiveVideos from '../components/ExclusiveVideos.vue';
+import FeaturedCasts from '../components/FeaturedCasts.vue';
+import Footer from '../components/Footer.vue';
+
+export default {
+  components: {
+    Header,
+    FeaturedMovies,
+    RecommendMovies,
+    ExclusiveVideos,
+    FeaturedCasts,
+    Footer,
+  },
+};
+</script>
+
+
+
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
