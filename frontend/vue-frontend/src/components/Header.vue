@@ -2,7 +2,7 @@
   <header class="relative h-screen flex flex-col justify-between overflow-hidden">
 
     <!-- Background image -->
-    <div class="absolute inset-0 bg-cover bg-no-repeat" :style="{ backgroundImage: `url(farmland.webp)` }"></div>
+    <div class="absolute inset-0 bg-cover bg-no-repeat" :style="{ backgroundImage: `url(../src/assets/farmland.webp)` }"></div>
 
     <!--Navbar-->
     <!-- Logo -->
@@ -51,7 +51,7 @@
     <div v-show="isMenuOpen" class="absolute top-full right-0 bg-gray-800 text-white mt-1 py-2 px-4 rounded shadow-lg">
       <!-- Menu items -->
       <!--<a href="#" class="block py-2">Profile</a>-->
-      <router-link to="/home" class="block py-2">Home</router-link>
+      <router-link to="/" class="block py-2">Home</router-link>
       <!--<router-link to="/logout" class="block py-2">Logout</router-link>-->
     </div>
     </nav>
