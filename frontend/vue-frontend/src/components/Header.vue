@@ -2,9 +2,7 @@
   <header class="relative h-screen flex flex-col justify-between overflow-hidden">
 
     <!-- Background image -->
-    <div v-if="trendingMovie.backdrop_path" class="absolute inset-0 bg-cover bg-no-repeat" 
-    :style="{ backgroundImage: `url(https://image.tmdb.org/t/p/original/${trendingMovie.backdrop_path})` }">
-    </div>
+    <div class="absolute inset-0 bg-cover bg-no-repeat" :style="{ backgroundImage: `url(farmland.webp)` }"></div>
 
     <!--Navbar-->
     <!-- Logo -->
@@ -95,6 +93,17 @@
 
 export default {
   name: 'Header',
+
+  data() {
+    return {
+      isMenuOpen: false,
+    };
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    },
+  },
 
 };
 </script>
