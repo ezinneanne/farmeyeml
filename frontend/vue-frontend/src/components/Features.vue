@@ -5,7 +5,7 @@
         What FarmEye Can Do
       </h1>
   
-      <!-- Features Section -->
+      <!-- Features Section adding suitable images to the feature cards -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 max-w-7xl">
         <!-- Feature Card -->
         <div class="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
