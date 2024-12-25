@@ -1,18 +1,25 @@
 <template>
-  <section class="bg-gray-100">
-  <section class="relative h-screen flex flex-col justify-between overflow-hidden container mx-auto px-4">
-    <h1 class="text-4xl font-extrabold text-green-700 mb-8 text-center p-4">
-      Get In Touch
-    </h1>
-    <div class="flex flex-col md:flex-row items-center justify-center h-full">
-      <div class="md:w-1/2 p-4 text-center md:text-left">
-        <p class="text-gray-700 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-      </div>
-      <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md mx-auto">
+  <section class="bg-gray-100 py-8">
+    <section class="relative min-h-screen flex flex-col justify-between container mx-auto px-4">
+      <!-- Section Title -->
+      <h1 class="text-4xl font-extrabold text-green-700 mb-8 text-center p-4">
+        Get In Touch
+      </h1>
+
+      <!-- Content Wrapper -->
+      <div class="flex flex-col md:flex-row items-center justify-center gap-8">
+        <!-- Text Content -->
+        <div class="md:w-1/2 p-4 text-center md:text-left">
+          <p class="text-gray-700 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+
+        <!-- Form Section -->
+        <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
           <h3 class="text-2xl font-semibold mb-6 text-gray-800">Fill the form below:</h3>
           <form name="contact-form" method="post" data-netlify="true">
+            <!-- Name Field -->
             <div class="mb-4">
               <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
               <input
@@ -24,6 +31,8 @@
                 class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-green-300"
               />
             </div>
+
+            <!-- Email Field -->
             <div class="mb-4">
               <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
               <input
@@ -35,6 +44,8 @@
                 class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-green-300"
               />
             </div>
+
+            <!-- Message Field -->
             <div class="mb-6">
               <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
               <textarea
@@ -44,18 +55,23 @@
                 class="w-full px-4 py-2 border rounded-md h-32 resize-y focus:outline-none focus:ring focus:ring-green-300"
               ></textarea>
             </div>
+
+            <!-- Submit Button -->
             <button type="submit" class="w-full bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:ring-green-300">
               Submit
             </button>
           </form>
         </div>
       </div>
-  </section>
+    </section>
   </section>
 </template>
 
 <script>
-  export default {
-    name: "Contact",
-  };
-  </script>
+export default {
+  name: "Contact",
+};
+</script>
+
+<style scoped>
+</style>
