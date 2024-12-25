@@ -1,5 +1,5 @@
 <template>
-    <header class="relative h-screen flex flex-col justify-between overflow-hidden">
+    <section class="relative h-screen flex flex-col justify-between overflow-hidden">
         <h1 class="text-4xl font-extrabold text-green-700 mb-8 text-center p-4">
           About FarmEye
         </h1>
@@ -17,7 +17,7 @@
           </p>
         </div>
        </div>
-    </header>
+      </section>
 </template>
 
 <script>

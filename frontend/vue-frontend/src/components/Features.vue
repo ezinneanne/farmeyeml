@@ -1,5 +1,5 @@
 <template>
-    <header class="relative min-h-screen flex flex-col items-center justify-center bg-gray-100 overflow-hidden">
+    <section class="relative min-h-screen flex flex-col items-center justify-center bg-gray-100 overflow-hidden">
       <!-- Section Title -->
       <h1 class="text-4xl font-extrabold text-green-700 mb-8 text-center">
         What FarmEye Can Do
@@ -56,7 +56,7 @@
   </div>
 </div>
       
-    </header>
+</section>
   </template>
   
   <script>
