@@ -4,7 +4,7 @@
         <div class="flex flex-wrap justify-between">
           <!-- Logo and About -->
           <div class="w-full md:w-1/3">
-            <h1 class="text-4xl font-bold text-green-700 mb-4">FarmEye</h1>
+            <h1 class="text-2xl font-bold text-green-700 mb-4">FarmEye</h1>
             <p class="text-green-600">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                 Nesciunt reiciendis maiores dignissimos iste 
@@ -14,7 +14,7 @@
   
           <!-- Info Links -->
           <div class="w-full md:w-1/3">
-            <h4 class="text-lg font-bold mb-4">Info</h4>
+            <h4 class="text-2xl font-bold my-4">Info</h4>
             <ul class="space-y-2">
               <li><a href="#" class="hover:text-green-400">Home</a></li>
               <li><a href="#" class="hover:text-green-400">Features</a></li>
@@ -25,7 +25,7 @@
   
           <!-- Newsletter -->
           <div class="w-full md:w-1/3">
-            <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+            <h4 class="text-2xl font-bold my-4">Newsletter</h4>
             <p class="text-green-600 mb-4">
               Subscribe to our newsletter for a weekly dose of news, updates, important farming tips, and exclusive access to our advanced tech products.
             </p>
