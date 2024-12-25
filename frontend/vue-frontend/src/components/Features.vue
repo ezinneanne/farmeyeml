@@ -1,5 +1,6 @@
 <template>
-    <section class="relative min-h-screen flex flex-col items-center justify-center bg-gray-100 overflow-hidden">
+  <section class="bg-gray-100">
+    <section class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden container mx-auto px-4">
       <!-- Section Title -->
       <h1 class="text-4xl font-extrabold text-green-700 mb-8 text-center">
         What FarmEye Can Do
@@ -56,6 +57,7 @@
   </div>
 </div>
       
+</section>
 </section>
   </template>
   

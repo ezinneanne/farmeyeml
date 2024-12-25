@@ -1,5 +1,6 @@
 <template>
-  <section class="relative h-screen flex flex-col justify-between bg-gray-100 overflow-hidden">
+  <section class="bg-gray-100">
+  <section class="relative h-screen flex flex-col justify-between overflow-hidden container mx-auto px-4">
     <h1 class="text-4xl font-extrabold text-green-700 mb-8 text-center p-4">
       Get In Touch
     </h1>
@@ -9,9 +10,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
       </div>
-      <div class="bg-white p-8 rounded-lg shadow-md w-full">
-        <!-- Adjusted form size based on screen size -->
-        <div class="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-2xl mx-auto">
+      <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md mx-auto">
           <h3 class="text-2xl font-semibold mb-6 text-gray-800">Fill the form below:</h3>
           <form name="contact-form" method="post" data-netlify="true">
             <div class="mb-4">
@@ -51,7 +50,7 @@
           </form>
         </div>
       </div>
-    </div>
+  </section>
   </section>
 </template>
 
