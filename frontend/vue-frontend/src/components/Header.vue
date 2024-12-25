@@ -47,6 +47,9 @@
       <!-- Menu -->
       <div v-show="isMenuOpen" class="absolute top-full right-0 bg-gray-800 text-white mt-1 py-2 px-4 rounded shadow-lg">
         <router-link to="/" class="block py-2">Home</router-link>
+        <router-link to="/" class="block py-2">Home</router-link>
+        <router-link to="/" class="block py-2">Home</router-link>
+        <router-link to="/" class="block py-2">Home</router-link> <!--need to fix this-->
       </div>
     </nav>
     <!-- End of Navbar -->
