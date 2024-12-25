@@ -5,7 +5,7 @@
         </h1>
         <div class="flex flex-col md:flex-row items-center justify-center h-full">
         <div class="md:w-1/2 p-4">
-          <img src="../assets/farmer.webp" alt="FarmEye Image" class="max-w-full h-auto rounded-lg shadow-lg">
+          <img src="../assets/farmers.jpg" alt="FarmEye Image" class="max-w-full h-auto rounded-lg shadow-lg">
         </div>
         <div class="md:w-1/2 p-4 text-center md:text-left">
           <h2 class="text-2xl font-bold mb-4 text-green-600">Our Story</h2>
