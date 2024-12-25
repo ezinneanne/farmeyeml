@@ -1,5 +1,5 @@
 <template>
-  <header class="relative h-screen flex flex-col justify-between overflow-hidden">
+  <section class="relative h-screen flex flex-col justify-between bg-gray-100 overflow-hidden">
     <h1 class="text-4xl font-extrabold text-green-700 mb-8 text-center p-4">
       Get In Touch
     </h1>
@@ -22,7 +22,7 @@
                 name="name"
                 placeholder="Enter your name here"
                 required
-                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-green-300"
               />
             </div>
             <div class="mb-4">
@@ -33,7 +33,7 @@
                 name="email"
                 placeholder="Enter your email here"
                 required
-                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-300"
+                class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-green-300"
               />
             </div>
             <div class="mb-6">
@@ -42,17 +42,17 @@
                 id="message"
                 name="message"
                 placeholder="Write your message here."
-                class="w-full px-4 py-2 border rounded-md h-32 resize-y focus:outline-none focus:ring focus:ring-blue-300"
+                class="w-full px-4 py-2 border rounded-md h-32 resize-y focus:outline-none focus:ring focus:ring-green-300"
               ></textarea>
             </div>
-            <button type="submit" class="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:ring-blue-300">
+            <button type="submit" class="w-full bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:ring-green-300">
               Submit
             </button>
           </form>
         </div>
       </div>
     </div>
-  </header>
+  </section>
 </template>
 
 <script>
