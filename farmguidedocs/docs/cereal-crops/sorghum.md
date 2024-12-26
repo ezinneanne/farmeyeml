@@ -10,7 +10,6 @@ Sorghum is a staple crop in Nigeria, originating from Africa. It is the fifth mo
 ## Seed Types
 - **Local Varieties:** Traditional varieties like Kaura and Farafara are popular but lower-yielding.
 - **Improved Varieties:** SAMSORG series (e.g., SAMSORG 17 and SAMSORG 45), developed by research institutes, are higher-yielding, drought-tolerant, and disease-resistant.
-- **Hybrid Varieties:** Developed for commercial production, offering superior yields and pest resistance.
 
 ## Market Demand
 Sorghum is in high demand for:

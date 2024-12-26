@@ -10,7 +10,6 @@ In Nigeria, rice is cultivated using the following seed types:
 
 - **Local Varieties:** Oryza glaberrima, which is hardy and resistant to pests but lower-yielding.
 - **Improved Varieties:** Varieties like FARO 44 (SIPI), FARO 52 (WITA 4), and FARO 57, developed for higher yields, pest resistance, and tolerance to flooding and drought.
-- **Hybrid Varieties:** High-yielding seeds developed by research institutes and private organizations, suitable for commercial production.
 
 ## Market Demand
 Rice has an ever-growing market in Nigeria due to its role as a staple food. Local demand exceeds production, resulting in imports to fill the gap. The Nigerian government’s push for self-sufficiency has created opportunities for local production, with increasing demand from:
