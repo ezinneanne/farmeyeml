@@ -12,6 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'FarmEye',
   tagline: 'Improving farming productivity in Nigeria',
+  favicon: 'img/farmlogo.png',
   
 
   // Set the production url of your site here
@@ -43,8 +44,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -57,9 +56,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/farmlogo.png',
       navbar: {
         title: 'FarmEye',
+        logo: {
+          alt: 'FarmEye Logo',
+          src: 'img/logo.png',
+        },
         items: [
           {
             type: 'docSidebar',
