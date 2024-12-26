@@ -48,7 +48,8 @@
             />
           </div>
           <h3 class="text-xl font-semibold text-gray-800 mb-2">
-            Pests & Diseases Dictionary
+            <a href="https://apps.lucidcentral.org/pppw_v12/text/web_full/entities/index.htm" target="_blank" rel="noopener noreferrer" 
+  class="hover:underline">Pests & Diseases Dictionary</a>
           </h3>
           <p class="text-gray-600 text-center">
             Learn how to identify and treat common pests and diseases
