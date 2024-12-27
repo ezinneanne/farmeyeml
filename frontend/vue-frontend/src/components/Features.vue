@@ -69,8 +69,8 @@
               class="h-30 w-60 object-cover"
             />
           </div>
-          <h3 class="text-xl font-semibold text-gray-800 mb-2">
-            Comprehensive Farming Guide
+          <h3 class="text-xl font-semibold text-gray-800 mb-2"> 
+          <a href="https://ezinneanne.github.io/farmeyeml/" rel="noopener noreferrer" target="_blank" class="hover:underline">Comprehensive Farming Guide</a>
           </h3>
           <p class="text-gray-600 text-center">
             Access detailed guides on farming techniques, best practices, and
@@ -91,7 +91,7 @@
             />
           </div>
           <h3 class="text-xl font-semibold text-gray-800 mb-2">
-            Accurate Weather Prediction
+            <router-link to="/weather">Accurate Weather Prediction</router-link>
           </h3>
           <p class="text-gray-600 text-center">
             Stay informed with precise weather updates to plan your farming
