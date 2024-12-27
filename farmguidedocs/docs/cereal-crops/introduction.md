@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Cereal crops, such as maize, rice, sorghum, millet, and wheat, are staple foods in Nigeria. They are rich in carbohydrates and serve as a primary energy source for many households. Cultivating these crops effectively can increase yield, ensure food security, and boost farmers' incomes.
 
-![Differnt kinds of cereal crops in buckets](/img/cereals.jpg)
+![Different kinds of grains in buckets](/img/cereals.jpg)
 
 ## Step 1: Selecting the Right Crop and Variety
 Understand the Climate and Soil Requirements:

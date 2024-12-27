@@ -5,6 +5,8 @@ sidebar_position: 1
 # Introduction
 Leguminous crops such as cowpeas (beans), groundnuts, soybeans, and pigeon peas are vital for their high protein content. These crops improve soil fertility by fixing nitrogen, making them excellent companions for crop rotation.
 
+![Farmers in a farm harvesting vegetables](/img/legumes.jpg)
+
 ## Step 1: Selecting the Right Crop and Variety
 ### 1. Understand Soil and Climate Needs:
 
