@@ -37,3 +37,23 @@
 .heroBanner {
   background-color: #205d3b;
 }
+
+/* Styles for homepage ONLY in dark mode */
+[data-theme='dark'].home-page { 
+  background-color: white; 
+  color: black;
+}
+
+/* Example of targeting specific elements within the homepage 
+[data-theme='dark'] .home-page h1, 
+[data-theme='dark'] .home-page h2, 
+[data-theme='dark'] .home-page p { 
+    color: black;
+}
+[data-theme='dark'] .home-page a { 
+    color: green;
+}*/
+
+html[data-theme='dark'] {
+  background-color: black;
+}
