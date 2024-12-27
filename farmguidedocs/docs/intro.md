@@ -11,4 +11,5 @@ Agriculture is the backbone of Nigeria's economy, providing food and employment 
 
 ## The Essence of this guide
 It is important for farmers to learn about crop cultivation because it will help them grow more food, earn more money, and keep their farms healthy for future use. Understanding the right way to plant and care for crops like cereals and legumes can lead to bigger harvests and fewer losses from pests, diseases, or poor soil. 
-This guide will teach simple steps farmers can apply to improve their farming practices. It also explains how to take care of the soil, save water, and store crops properly, ensuring long-term benefits.
+This guide will teach simple steps farmers can apply to improve their farming practices. It will also explain how to take care of the soil, save water, and store crops properly, ensuring long-term benefits.
+
