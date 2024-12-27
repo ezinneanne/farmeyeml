@@ -31,11 +31,11 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
+    <Layout className="home-page"
       title={`Welcome to ${siteConfig.title}`}
       description="This is a smart farming guide on important farming practices in agriculture. <head />">
       <HomepageHeader />
-      <main>
+      <main className="home-page">
         <HomepageFeatures />
       </main>
     </Layout>

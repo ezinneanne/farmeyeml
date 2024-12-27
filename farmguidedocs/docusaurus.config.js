@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'FarmEye',
   tagline: 'Improving farming productivity in Nigeria',
-  favicon: 'img/farmlogo.png',
+  favicon: 'img/logo.png',
   
 
   // Set the production url of your site here
