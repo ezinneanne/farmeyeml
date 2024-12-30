@@ -91,7 +91,7 @@
             />
           </div>
           <h3 class="text-xl font-semibold text-gray-800 mb-2">
-            <router-link to="/weather">Accurate Weather Prediction</router-link>
+            <router-link to="/weather" class="hover:underline">Accurate Weather Prediction</router-link>
           </h3>
           <p class="text-gray-600 text-center">
             Stay informed with precise weather updates to plan your farming
