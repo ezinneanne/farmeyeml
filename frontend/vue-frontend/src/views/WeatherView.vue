@@ -49,7 +49,7 @@
           return;
         }
   
-        const apiKey = "d7ee08f44b2fcf9f23761d7ab45878c9"; 
+        const apiKey = ""; 
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.trim()}&appid=${apiKey}&units=metric`;
   
         try {
