@@ -8,7 +8,7 @@ import joblib
 data = pd.read_csv("final_data.csv")
 
 # Feature and target separation
-X = data[['nitrogen', 'phosphorus', 'potassium', 'oxygen_content', 'pH', 'particles', 'water_holding_content', 'soil_type']]
+X = data[['pH', 'N', 'P', 'K', 'OC', 'Particles', 'Water_holding_content', 'Soil_type']]
 y = data['crop_type']
 
 # Split the data

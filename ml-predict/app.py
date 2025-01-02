@@ -12,14 +12,14 @@ scaler = joblib.load("scaler.pkl")
 def predict():
     data = request.json
     inputs = np.array([
-        data['nitrogen'],
-        data['phosphorus'],
-        data['potassium'],
-        data['oxygen_content'],
         data['pH'],
-        data['particles'],
-        data['water_holding_content'],
-        data['soil_type']
+        data['N'],
+        data['P'],
+        data['K'],
+        data['OC'],
+        data['Particles'],
+        data['Water_holding_content'],
+        data['Soil_type']
     ]).reshape(1, -1)
     inputs_scaled = scaler.transform(inputs)
     prediction = model.predict(inputs_scaled)[0]
