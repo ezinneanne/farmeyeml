@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const { spawn } = require("child_process");
+const path = require("path"); // Import path module
 
 const app = express();
 const PORT = 5000;
@@ -13,8 +14,11 @@ app.use(cors());
 app.post("/predict", (req, res) => {
     const inputData = req.body;
 
+    // Resolve absolute path to the Python script
+    const scriptPath = path.resolve(__dirname, "../ml-predict/ml-api.py");
+
     // Call the Python script
-    const python = spawn("python", ["ml-predict/ml-api.py", JSON.stringify(inputData)]);
+    const python = spawn("python", [scriptPath, JSON.stringify(inputData)]);
 
     let result = "";
     python.stdout.on("data", (data) => {
