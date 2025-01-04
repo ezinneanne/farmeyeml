@@ -63,7 +63,7 @@
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(this.form),
           });
-  
+   
           if (!response.ok) {
             throw new Error("Failed to fetch prediction");
           }
