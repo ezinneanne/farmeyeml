@@ -34,9 +34,9 @@
       return {
         form: {
           pH: "",
-          Nitrogen: "",
-          Potassium: "",
-          Phosphorus: "",
+          N: "",
+          P: "",
+          K: "",
           OC: "",
           Particles: "",
           Water_holding_content: "",
@@ -44,10 +44,10 @@
         },
         prediction: null,
         inputFields: {
-          pH: "pH (pH)",
-          Nitrogen: "Nitrogen",
-          Potassium: "Potassium",
-          Phosphorus: "Phosphorus",
+          pH: "pH",
+          N: "Nitrogen",
+          P: "Phosphorus",
+          K: "Potassium",
           OC: "OC",
           Particles: "Particles",
           Water_holding_content: "Water Holding Content",
