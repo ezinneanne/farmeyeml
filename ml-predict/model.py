@@ -51,4 +51,8 @@ print(f"Model Accuracy: {accuracy:.2f}")
 # Save the model and scaler
 joblib.dump(model, "svm_model.pkl")
 joblib.dump(scaler, "scaler.pkl")
+# Save LabelEncoders
+joblib.dump(label_encoder_soil, "soil_label_encoder.pkl")
+joblib.dump(label_encoder_crop, "crop_label_encoder.pkl")
+print("Soil and crop label encoders saved too!")
 print("Model and scaler saved!")
