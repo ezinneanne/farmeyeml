@@ -64,7 +64,7 @@
           Improving productivity in Nigerian farms
         </span>
         <button class="inline-flex justify-center items-center bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-500">
-          Predict Now
+          <router-link to="/predict" class="hover:underline">Predict Now</router-link>
         </button>
       </div>
     </div>
