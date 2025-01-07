@@ -30,10 +30,15 @@
         {{ errorMessage }}
       </p>
     </div>
+    <Footer />
   </template>
   
   <script>
+  import Footer from '../components/footer.vue';
   export default {
+    components: {
+      Footer,
+    },
     data() {
       return {
         state: "",
