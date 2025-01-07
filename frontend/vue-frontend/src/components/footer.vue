@@ -16,10 +16,10 @@
           <div class="w-full md:w-1/3">
             <h4 class="text-2xl font-bold my-4">Info</h4>
             <ul class="space-y-2">
-              <li><a href="#" class="hover:text-green-400">Home</a></li>
-              <li><a href="#" class="hover:text-green-400">Features</a></li>
-              <li><a href="#" class="hover:text-green-400">About</a></li>
-              <li><a href="#" class="hover:text-green-400">Contact Us <i class="far fa-envelope"></i></a></li>
+              <li><router-link to="/" class="hover:text-green-400">Home</router-link></li>
+              <li><router-link to="/predict" class="hover:text-green-400">Crop Prediction</router-link></li>
+              <li><a href="https://ezinneanne.github.io/farmeyeml/" rel="noopener noreferrer" target="_blank" class="hover:text-green-400">Farming Guide</a></li>
+              <li><router-link to="/weather" class="hover:text-green-400">Weather Forecast</router-link></li>
             </ul>
           </div>
   
