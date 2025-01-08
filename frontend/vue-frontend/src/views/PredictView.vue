@@ -1,6 +1,9 @@
 <template>
   <div class="min-h-screen bg-gray-100 flex justify-center items-center">
-    <div class="w-full max-w-lg bg-white shadow-lg rounded-lg p-6">
+    <!-- Background image -->
+    <div class="absolute inset-0 bg-cover bg-no-repeat" :style="{ backgroundImage: `url(../src/assets/background.jpg)` }"></div>
+
+    <div class="w-full max-w-lg shadow-lg rounded-lg p-6">
       <h1 class="text-2xl font-bold text-center mb-4">Crop Prediction</h1>
       <form @submit.prevent="handlePredict" class="space-y-4">
         <div v-for="(label, field) in inputFields" :key="field" class="flex flex-col">
