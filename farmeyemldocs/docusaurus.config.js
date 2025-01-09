@@ -16,15 +16,15 @@ const config = {
   
 
   // Set the production url of your site here
-  url: 'https://farmeyeml.docs',
+  url: 'https://farmeyemldocs.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/farmeyeml/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ezinneanne', // Usually your GitHub org/user name.
-  projectName: 'farmeyeml', // Usually your repo name.
+  //organizationName: 'ezinneanne', // Usually your GitHub org/user name.
+  //projectName: 'farmeyeml', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
