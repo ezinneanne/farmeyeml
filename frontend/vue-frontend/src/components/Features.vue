@@ -70,7 +70,7 @@
             />
           </div>
           <h3 class="text-xl font-semibold text-gray-800 mb-2"> 
-          <a href="https://ezinneanne.github.io/farmeyeml/" rel="noopener noreferrer" target="_blank" class="hover:underline">Comprehensive Farming Guide</a>
+          <a href="https://farmeyemldocs.netlify.app/" rel="noopener noreferrer" target="_blank" class="hover:underline">Comprehensive Farming Guide</a>
           </h3>
           <p class="text-gray-600 text-center">
             Access detailed guides on farming techniques, best practices, and

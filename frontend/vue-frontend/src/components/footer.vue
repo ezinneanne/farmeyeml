@@ -18,7 +18,7 @@
             <ul class="space-y-2">
               <li><router-link to="/" class="hover:text-green-400">Home</router-link></li>
               <li><router-link to="/predict" class="hover:text-green-400">Crop Prediction</router-link></li>
-              <li><a href="https://ezinneanne.github.io/farmeyeml/" rel="noopener noreferrer" target="_blank" class="hover:text-green-400">Farming Guide</a></li>
+              <li><a href="https://farmeyemldocs.netlify.app/" rel="noopener noreferrer" target="_blank" class="hover:text-green-400">Farming Guide</a></li>
               <li><router-link to="/weather" class="hover:text-green-400">Weather Forecast</router-link></li>
             </ul>
           </div>
