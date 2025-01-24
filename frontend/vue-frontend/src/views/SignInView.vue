@@ -10,15 +10,8 @@
            <div class="rounded-md shadow-sm">
              <div>
                 <label for="email" class="sr-only">Email address</label>
-                <input 
-  id="email" 
-  name="email" 
-  type="email" 
-  required 
-  class="relative block w-full px-3 py-2 text-green-700 placeholder-green-600 border border-gray-300 rounded-t-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm" 
-  placeholder="Email address"
-  v-model="email"
-/>
+                <input id="email" name="email" type="email" required class="relative block w-full px-3 py-2 text-green-700 placeholder-green-600 border border-gray-300 rounded-t-md focus:outline-none focus:ring-green-500 focus:border-green-500 focus:z-10 sm:text-sm" 
+  placeholder="Email address" v-model="email"/>
              <label for="password" class="sr-only">Password</label>
              <input 
                id="password" 
