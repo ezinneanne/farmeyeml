@@ -1,19 +1,13 @@
 <template>
   <section class="bg-gray-100">
-    <section
-      class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden container mx-auto px-4 py-8"
-    >
+    <section class="relative min-h-screen flex flex-col items-center justify-center overflow-hidden container mx-auto px-4 py-8">
       <!-- Section Title -->
-      <h1
-        class="text-4xl sm:text-3xl font-extrabold text-green-700 mb-8 text-center"
-      >
+      <h1 class="text-4xl sm:text-3xl font-extrabold text-green-700 mb-8 text-center">
         What FarmEye Can Do
       </h1>
 
       <!-- Features Grid -->
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 max-w-7xl w-full"
-      >
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-6 max-w-7xl w-full">
         <!-- Feature Card -->
         <div
           class="flex flex-col items-center p-6 bg-white rounded-lg shadow-md"
