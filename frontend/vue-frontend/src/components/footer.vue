@@ -52,7 +52,7 @@
         </div>
       </section>
       <hr class="border-green-700 my-4" />
-      <p class="text-center text-green-600">Copyright &copy; 2024. All rights reserved</p>
+      <p class="text-center text-green-600">Copyright &copy; {{ new Date().getFullYear() }}. All rights reserved</p>
     </footer>
   </template>
   
