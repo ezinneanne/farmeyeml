@@ -92,7 +92,6 @@ export default {
 </script>
 
 <style scoped>
-/* Add Tailwind CSS classes as needed */
 .DM-Sans {
   font-family: 'DM Sans', sans-serif;
 }
