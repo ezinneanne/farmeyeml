@@ -1,0 +1,14 @@
+streamlit
+tensorflow
+numpy
+Pillow
+
+
+
+
+
+
+
+
+
+
