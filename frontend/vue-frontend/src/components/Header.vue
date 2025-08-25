@@ -46,9 +46,9 @@
 
       <!-- Menu -->
       <div v-show="isMenuOpen" class="absolute top-full right-0 bg-gray-800 text-white mt-1 py-2 px-4 rounded shadow-lg">
-        <router-link to="/" class="block py-2">Features</router-link>
-        <router-link to="/" class="block py-2">About</router-link>
-        <router-link to="/" class="block py-2">Contact</router-link> 
+        <router-link to="/weather" class="block py-2">Weather Forecast</router-link>
+        <router-link to="/pestclassifier" class="block py-2">Pest/Disease Classifier</router-link>
+        <router-link to="/predict" class="block py-2">Crop Prediction</router-link> 
       </div>
     </nav>
     <!-- End of Navbar -->
