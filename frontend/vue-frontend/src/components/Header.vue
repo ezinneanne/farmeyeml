@@ -24,9 +24,7 @@
         <span class="text-lg font-semibold">FarmEye</span>
       </div>
 
-      <!-- Sign In -->
       <div class="flex items-center text-white">
-        <router-link to="/signin" class="mr-2"> Sign in </router-link>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6 cursor-pointer"

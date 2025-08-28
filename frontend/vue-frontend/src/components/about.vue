@@ -11,10 +11,14 @@
       <div class="md:w-1/2 p-4 text-center md:text-left">
         <h2 class="text-2xl font-bold mb-4 text-green-600">Our Story</h2>
         <p class="text-gray-700 leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscingg elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          FarmEye is a farming productivity-oriented platform born out of a simple but pressing question: 
+          How can we solve the countless problems facing Nigerian agriculture in a sustainable way?
         </p>
         <p class="text-gray-700 leading-relaxed mt-4">
-          Sed ut perspiciatii unde omnis iste natus error sit voluptatee accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+          The idea for FarmEye emerged from observing the struggles of local farmers—low yields due to poor soil management, limited access to real-time data, and the absence of farmer-friendly technologies. Rather than focusing on quick fixes, we envisioned a platform that leverages smart policies, data-driven insights, and technology to transform the way farming is practiced.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-4">
+          At its core, FarmEye aims to bridge the gap between traditional farming practices and modern agricultural innovation. By providing farmers with actionable insights, improved resource management, and decision-support tools, the platform helps boost productivity while ensuring sustainability. Our mission is not just to support individual farmers but to contribute to reshaping the broader agricultural landscape in Nigeria.
         </p>
       </div>
 
