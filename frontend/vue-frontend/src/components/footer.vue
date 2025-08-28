@@ -6,9 +6,7 @@
           <div class="w-full md:w-1/3">
             <h1 class="text-2xl font-bold text-green-700 mb-4">FarmEye</h1>
             <p class="text-green-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Nesciunt reiciendis maiores dignissimos iste 
-                optio officiis exercitationem quaerat velit alias.
+                Improving productivity in Nigerian farms.
             </p>
           </div>
   

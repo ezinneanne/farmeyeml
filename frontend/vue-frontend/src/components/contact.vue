@@ -11,7 +11,7 @@
         <!-- Text Content -->
         <div class="md:w-1/2 p-4 text-center md:text-left">
           <p class="text-gray-700 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            At FarmEye, we believe in transforming agriculture through smart, data-driven solutions. Get in touch with us today! Your feedback, inquiries, and partnerships help us drive farming productivity forward.
           </p>
         </div>
 
